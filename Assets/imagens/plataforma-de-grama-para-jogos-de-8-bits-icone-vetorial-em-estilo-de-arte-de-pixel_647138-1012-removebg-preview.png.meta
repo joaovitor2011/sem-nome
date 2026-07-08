@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 223920c7a2cce6248af71a404e4ee5cb
+guid: 0615b2e24c32f2643b9c5bdd7cae8a9e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8957533339777814147
-    second: dreamina-2026-07-08-6534-Crop_and_isolate_only_the_pixel_art_keyb...-removebg-preview_0
+      213: -263074265226613884
+    second: plataforma-de-grama-para-jogos-de-8-bits-icone-vetorial-em-estilo-de-arte-de-pixel_647138-1012-removebg-preview_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dreamina-2026-07-08-6534-Crop_and_isolate_only_the_pixel_art_keyb...-removebg-preview_0
+      name: plataforma-de-grama-para-jogos-de-8-bits-icone-vetorial-em-estilo-de-arte-de-pixel_647138-1012-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 127
-        y: 128
-        width: 246
-        height: 228
+        x: 9
+        y: 207
+        width: 482
+        height: 86
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 38ecc2d0d1d8f4c70800000000000000
-      internalID: 8957533339777814147
+      spriteID: 48bee9f795f595cf0800000000000000
+      internalID: -263074265226613884
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      dreamina-2026-07-08-6534-Crop_and_isolate_only_the_pixel_art_keyb...-removebg-preview_0: 8957533339777814147
+      plataforma-de-grama-para-jogos-de-8-bits-icone-vetorial-em-estilo-de-arte-de-pixel_647138-1012-removebg-preview_0: -263074265226613884
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
