@@ -5,7 +5,7 @@ public class Jogador : MonoBehaviour
     // Variável que define velocidade do personagem
     private float Velocidade = 5f;
     // Variável que define a força do pulo do personagem
-    public float ForcaPulo = 5;
+    private float ForcaPulo = 21;
 
     // Variável que define número de pulos que o personagem pode fazer
     // antes de tocar no chão (pulos duplos)
