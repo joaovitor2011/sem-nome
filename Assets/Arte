@@ -1,0 +1,26 @@
+Nome jogo: jump health
+
+Descriçao: Este jogo foca em pulos entre pratos com comidas, escolha qual prato com comida você vai querer. No final veja o quão saudável você esta.
+
+Inicio: 
+-Botao Fases(3),Sobre e Sair(Programar e estilo de cores botao)
+-Logo
+-Personagem
+-Fundo 
+
+Fases:
+1- Facil (Impossível "morrer", apenas não pegando nenhum)
+2- Medio (Media de alimentos ruins e bons, Facil de "morrer" e tendo pouca agua)
+3- Difícil (Essencial pegar agua, mais comidas ruins e )
+
+Sobre
+-Como funciona o jogo
+-Futuras ideias
+
+Jogo:
+-Seguir personagem
+-animaçao de andar, pular, vitoria, derrota e +-
+-animaçao dos coletaveis
+-Derrota aparecer opçao menu e animaçao derrota
+-chegar ao topo aparecer menu ou proxima fase e animaçao vitoria
+-Fase 3 Aparacer apenas menu caso vitoria
