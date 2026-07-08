@@ -3,8 +3,7 @@ using UnityEngine;
 public class Jogador : MonoBehaviour
 {
     // Variável que define velocidade do personagem
-    public float Velocidade = 5;
-
+    private float Velocidade = 5f;
     // Variável que define a força do pulo do personagem
     public float ForcaPulo = 5;
 
@@ -35,8 +34,7 @@ public class Jogador : MonoBehaviour
     // É chamado 1 vez por frame
     void Update()
     {
-        // Define a velocidade do eixo 'X' para o valor definido na variável 'Velocidade'
-        MeuRigidBody.linearVelocityX = Velocidade;
+   
 
         // Ouve pelo input definido na variável "TeclaDoPulo"
         if (Input.GetKeyDown(TeclaDoPulo))
@@ -56,5 +54,12 @@ public class Jogador : MonoBehaviour
                 MeuRigidBody.AddForce(forcaPulo, ForceMode2D.Impulse);
             }
         }
+
+        // Pega a entrada das setas (Esq/Dir) ou do teclado (A/D)
+        float inputHorizontal = Input.GetAxisRaw("Horizontal");
+
+        // Calcula a direção e aplica a velocidade
+        Vector3 movimento = new Vector3(inputHorizontal, 0f, 0f);
+        transform.Translate(movimento * Velocidade * Time.deltaTime);
     }
 }
