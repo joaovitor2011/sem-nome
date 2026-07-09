@@ -836,7 +836,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1271045663}
         m_TargetAssemblyTypeName: Botoes, Assembly-CSharp
-        m_MethodName: MudaCenaInicio
+        m_MethodName: MudaCenaFase1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
