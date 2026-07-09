@@ -27,5 +27,9 @@ public class Mudartela : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+    public void TrocarSceneGameOver()
+    {
+        SceneManager.LoadScene(6);
+    }
 }
 
