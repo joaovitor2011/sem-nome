@@ -233,9 +233,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 111132781}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82f8428a84a882a4db9546a6a810e735, type: 3}
+  m_Script: {fileID: 11500000, guid: 0125e9cdedcdab24fbbef7dacf32f2ae, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Botoes
+  m_EditorClassIdentifier: Assembly-CSharp::Mudartela
 --- !u!1 &234085456
 GameObject:
   m_ObjectHideFlags: 0
@@ -320,8 +320,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 111132786}
-        m_TargetAssemblyTypeName: Botoes, Assembly-CSharp
-        m_MethodName: MudaCenaInicio
+        m_TargetAssemblyTypeName: Mudartela, Assembly-CSharp
+        m_MethodName: TrocarSceneInicio
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -806,8 +806,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 111132786}
-        m_TargetAssemblyTypeName: Botoes, Assembly-CSharp
-        m_MethodName: MudaCenaJogo
+        m_TargetAssemblyTypeName: Mudartela, Assembly-CSharp
+        m_MethodName: TrocarSceneEscolhaFase
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -889,7 +889,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00012207031, y: 4.197296}
+  m_AnchoredPosition: {x: 0.00012207031, y: 4.1972656}
   m_SizeDelta: {x: 1, y: 8.730011}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2041510951

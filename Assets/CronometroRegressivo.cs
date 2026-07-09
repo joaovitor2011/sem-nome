@@ -42,7 +42,7 @@ public class CronometroRegressivo : MonoBehaviour
     {
         if (!string.IsNullOrEmpty(nomeDaProximaCena))
         {
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(0);
         }
         else
         {

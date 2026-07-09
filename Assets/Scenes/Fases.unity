@@ -203,8 +203,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1271045663}
-        m_TargetAssemblyTypeName: Botoes, Assembly-CSharp
-        m_MethodName: MudaCenaInicio
+        m_TargetAssemblyTypeName: Mudartela, Assembly-CSharp
+        m_MethodName: TrocarSceneFase2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -265,7 +265,7 @@ GameObject:
   - component: {fileID: 429257062}
   - component: {fileID: 429257061}
   m_Layer: 5
-  m_Name: BotaoInicio
+  m_Name: BotaoVoltar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -335,9 +335,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Botoes, Assembly-CSharp
-        m_MethodName: MudaCenaInicio
+      - m_Target: {fileID: 1271045663}
+        m_TargetAssemblyTypeName: Mudartela, Assembly-CSharp
+        m_MethodName: TrocarSceneInicio
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -835,8 +835,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1271045663}
-        m_TargetAssemblyTypeName: Botoes, Assembly-CSharp
-        m_MethodName: MudaCenaFase1
+        m_TargetAssemblyTypeName: Mudartela, Assembly-CSharp
+        m_MethodName: TrocarSceneFase1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -999,9 +999,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1271045658}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82f8428a84a882a4db9546a6a810e735, type: 3}
+  m_Script: {fileID: 11500000, guid: 0125e9cdedcdab24fbbef7dacf32f2ae, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Botoes
+  m_EditorClassIdentifier: Assembly-CSharp::Mudartela
 --- !u!1 &1290700714
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,7 +10,7 @@ public class Mudartela : MonoBehaviour
 
     public void TrocarSceneFase1()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
     }
 
     public void TrocarSceneFase2()
@@ -20,12 +20,12 @@ public class Mudartela : MonoBehaviour
 
     public void TrocarSceneVitoria()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
     }
 
     public void TrocarSceneInicio()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(0);
     }
 }
 
