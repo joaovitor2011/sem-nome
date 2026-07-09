@@ -3,14 +3,24 @@ using UnityEngine.SceneManagement;
 
 public class Mudartela : MonoBehaviour
 {
-    public void TrocarSceneFase()
+    public void TrocarSceneEscolhaFase()
     {
         SceneManager.LoadScene(1);
     }
 
-    public void TrocarSceneMenu()
+    public void TrocarSceneFase1()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(3);
+    }
+
+    public void TrocarSceneFase2()
+    {
+        SceneManager.LoadScene(4);
+    }
+
+    public void TrocarSceneVitoria()
+    {
+        SceneManager.LoadScene(2);
     }
 }
 

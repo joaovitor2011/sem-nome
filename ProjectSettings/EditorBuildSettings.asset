@@ -14,12 +14,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Fases.unity
     guid: 68d3b9b3f6d9dfa4595d39459a048083
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Sobre.unity
     guid: 02799af3057d15449bd4006adba14f83
   - enabled: 1
     path: Assets/Scenes/Derrota e Vitoria.unity
     guid: 9d8672fedebfb6644a4b8452eb2c4a1a
+  - enabled: 1
+    path: Assets/Scenes/Template Runner - Level 1.unity
+    guid: 1e2d6284d5a666f4898dd75487bcf441
+  - enabled: 1
+    path: Assets/Scenes/Fase 2.unity
+    guid: 40454f7a4f9739a4386e3055d3849f84
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
