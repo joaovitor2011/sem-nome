@@ -22,5 +22,10 @@ public class Mudartela : MonoBehaviour
     {
         SceneManager.LoadScene(2);
     }
+
+    public void TrocarSceneInicio()
+    {
+        SceneManager.LoadScene(2);
+    }
 }
 
