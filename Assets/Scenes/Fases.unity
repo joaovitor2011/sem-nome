@@ -269,7 +269,7 @@ GameObject:
   - component: {fileID: 373545178}
   - component: {fileID: 373545177}
   m_Layer: 5
-  m_Name: BotaoVoltar (2)
+  m_Name: BotaoFase 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

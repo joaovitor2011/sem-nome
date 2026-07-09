@@ -32,8 +32,6 @@ public class Collectible2 : MonoBehaviour
 
     }
 
-<<<<<<< Updated upstream
+
 }
-=======
-}
->>>>>>> Stashed changes
+
