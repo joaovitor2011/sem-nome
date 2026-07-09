@@ -20,5 +20,9 @@ public class Botoes : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
+    public void MudaCenaFase1(){
+        SceneManager.LoadScene(2);
+    }
+
 }
 
